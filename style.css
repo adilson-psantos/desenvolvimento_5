@@ -3,9 +3,15 @@
 * {
     padding: 5;
     margin: 5;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Work Sans', sans-serif;
 }
-
+header {
+    background: linear-gradient(#403df2,#40e0d0,#6bb7c4);
+    padding: 30px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
 ul{
     display: flex;
     list-style:none;
@@ -17,10 +23,17 @@ a {
     text-decoration: none;
 }
 
-header {
-    background: linear-gradient(#3df2cb, rgb(0, 247, 255), white);
-}
+
 
 body{
-    background: linear-gradient( rgb(127, 168, 255), white);
+    background-color: antiquewhite;
+}
+
+footer{
+    background: linear-gradient(#403df2,#40e0d0,#6bb7c4);
+    padding: 30px 0 0 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
